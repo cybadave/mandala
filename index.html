@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mandala</title>
+    <script type="text/javascript" src="js/dat.gui.min.js"></script>
+    <script type="text/javascript" src="bower_components/d3/d3.min.js"></script>
+    <script type="text/javascript" src="js/mandala3.js"></script>
+    <link href="css/mandala.css" rel="stylesheet" type="text/css">
+    <link href="css/dat.gui.css" rel="stylesheet" type="text/css">
+</head>
+<body onclick="clickDraw();" style="overflow: hidden;margin: 0;">
+<svg id="svg_canvas" width="1265" height="726" viewbox="-632 -363 1265 726">
+</svg>
+<script>
+    (function() {
+        redraw();
+    })();
+</script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+{
+  "name": "mandala",
+  "authors": [
+    "David Lewis <cybadave@gmail.com>"
+  ],
+  "description": "Sketch to produce procedural mandalas",
+  "main": "index.html",
+  "keywords": [
+    "mandala",
+    "procedural",
+    "javascript"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "d3": "^4.10.0"
+  }
+}

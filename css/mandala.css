@@ -1,0 +1,34 @@
+.ccw1 {
+    animation:spinccw 40s linear infinite;
+}
+
+.ccw2 {
+    animation:spinccw 30s linear infinite;
+}
+
+.ccw3 {
+    animation:spinccw 20s linear infinite;
+}
+
+.ccw4 {
+    animation:spinccw 15s linear infinite;
+}
+
+.cw1 {
+    animation:spincw 40s linear infinite;
+}
+
+.cw2 {
+    animation:spincw 30s linear infinite;
+}
+
+.cw3 {
+    animation:spincw 20s linear infinite;
+}
+
+.cw4 {
+    animation:spincw 15s linear infinite;
+}
+
+@keyframes spincw { 0% {transform:rotate(0deg)} 100% { transform:rotate(360deg); } }
+@keyframes spinccw { 0% {transform:rotate(360deg)} 100% { transform:rotate(0deg); } }
